@@ -17,6 +17,11 @@ The other objective is to give access to the expected arrival times for the next
 - **Pandas**
 - **FastAPI**
 
+## 🔑 Data Preparation : API_Request.ipynb
+- Import Subway Lines Referential and the list of Subway Stops in Paris.
+- Keep only the metro lines.
+- Do the same for the stops, and keep only the ones in Paris.
+
 ## 🔑 Backend
 
 1. **my_time_series_package**
@@ -33,7 +38,12 @@ The other objective is to give access to the expected arrival times for the next
 1. **Home.py**
 - Main page of the Streamlit app.
 
-2. **Streamlit App**
-- Organize the Application : Header, Selection Box, Table and Map.
-- Configure the features to make the application interactive.
+2. **Navigo Promotions.py**
+- Center the map of the Streamlit App on Paris.
+- Create Select Boxes to allow the user to select a type of advantage.
+- Select the dataframe corresponding to this advantage.
+
+3. **Next Trains.py**
+- Create Select Boxes to allow the user to select a line and a stop.
+- Request the API and the endpoint arrival time.
 
