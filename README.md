@@ -2,6 +2,8 @@
 
 ![Project Image](https://c0.lestechnophiles.com/www.numerama.com/wp-content/uploads/2024/05/navigo-metro-2-1024x576.jpg?avif=1&key=55b16b38)
 
+Access the application here: https://appparis-trains-information-kntvzmzt34povglrzbbept.streamlit.app/Navigo_Promotions
+
 ## 🚀 Introduction
 
 In Paris, there is a monthly pass that provides access to all public transportation in the city. It is called Navigo Pass.<br><br>
